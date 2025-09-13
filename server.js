@@ -50,7 +50,9 @@ connectCloudinary();
 // middlewares
 app.use(express.json());
 app.use(cors({
-  origin: ["https://quickmed-frontend.vercel.app", "https://quickmed-admin.vercel.app"],
+  origin: [
+    "https://frontend-eta-navy.vercel.app",  
+  ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
