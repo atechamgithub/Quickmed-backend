@@ -51,7 +51,7 @@ connectCloudinary();
 app.use(express.json());
 app.use(cors({
   origin: [
-    "https://frontend-eta-navy.vercel.app",  
+    "https://frontend-eta-navy.vercel.app",  "http://localhost:5173",
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
