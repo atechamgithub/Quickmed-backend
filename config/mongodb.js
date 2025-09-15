@@ -13,8 +13,3 @@ export const connectDB = async () => {
 	}
 };
 
-// Do not use '@' symbol in your databse user's password else it will show an error.
-
-//N20Sc5xNNmUvd7iC   password
-
-//mongodb+srv://srivastavadarsh176:N20Sc5xNNmUvd7iC@cluster0.fhx2j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
